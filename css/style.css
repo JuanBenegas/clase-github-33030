@@ -16,6 +16,17 @@ h1{
     margin: 15px auto;
 }
 
+.hola-mundo:hover{
+    background-color: aqua;
+    transition: .0s;
+}
+
+h1:hover{
+    color: white;
+    transform: skew(-15deg);
+    transition: .3s;
+}
+
 .flex-index{
     display: flex;
     flex-wrap: wrap;
